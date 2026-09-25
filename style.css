@@ -60,8 +60,9 @@ main section.games ul li a{
     text-decoration: none;
     color: black;
 
-    display: grid; 
-    grid-template-columns: 1fr 3fr;
+    display: flex; 
+    flex-direction: row;
+    gap: 21px;
     margin-top: 30px;
 }
 
@@ -82,3 +83,11 @@ main section.games ul li a .icon .icon-box{
 main section.games ul li a .icon .icon-box img{
     width: 60px;
 }
+
+main section.games ul li a .details .description{
+    margin-top: 12px;
+    line-height: 1.5em;
+}
+
+
+
