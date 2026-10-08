@@ -36,13 +36,12 @@ main section.hero .tagline{
     text-align: center;
     padding: 30px;
     font-weight: bold;
-    line-height: 1.5em;
 }
 
 main section.hero .bg{
     height: 50vh;
     background: url('phone2.png');
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -84,10 +83,17 @@ main section.games ul li a .icon .icon-box img{
     width: 60px;
 }
 
+main section.games ul li a .details .name{
+    font-size: 1.3em;
+}
+
 main section.games ul li a .details .description{
     margin-top: 12px;
     line-height: 1.5em;
 }
 
-
-
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
